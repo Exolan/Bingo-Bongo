@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(/resourse/fonts/Rubik-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik Bold';
+    src: url(/resourse/fonts/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Rubik Light';
+    src: url(/resourse/fonts/Rubik-Light.ttf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0eb;
+}
+
+body, div, img{
+    margin: 0;
+    padding: 0;
+}
+
+img, button{
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, p, a{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3{
+    font-family: 'Rubik Bold';
+}
+
+h4, a{
+    font-family: 'Rubik';
+}
+
+p{
+    font-family: 'Rubik Light';
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+.wrapper{
+    display: table-row;
+    background-color: #e8e7df;
+    height: 100%;
+    position: relative;
+}
+
+.wrapper__flower, .wrapper__star{
+    position: absolute;
+}
+
+.wrapper__flower{
+    top: 125px;
+    right: 0;
+}
+
+.wrapper__star{
+    top: 425px;
+    left: 0;
+}
+
+.wrapper__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    padding-top: 30px;
+    gap: 30px;
+}
+
+.wrapper__nav ul{
+    font-weight: bold;
+    display: flex;
+    gap: 29px
+}
+
+.wrapper__service{
+    display: flex;
+    gap: 29px
+}
+
+
+.wrapper__main{
+    height: 100%;
+    margin-top: 30px;
+    background: url(/resourse/img/waves.svg);
+}
+
+.wrapper__title{
+    padding-top: 204px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.wrapper__title span{
+    color: #32bfce;
+}
+
+.wrapper__subtitle{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.wrapper__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.wrapper__button button{
+    font-family: Rubik;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: #ff5b35;
+}
+
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    height: 130px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e8e7df;
+    padding: 0px 100px;
+    font-weight: bolder;
+    font-size: 12px;
+    gap: 30px
+}
+
+.footer__social{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.footer__policy{
+    padding-left: 60px;
+}
