@@ -104,11 +104,12 @@ ul{
     height: 100%;
     margin-top: 30px;
     background: url(/resourse/img/waves.svg);
+    padding-bottom: 130px;
 }
 
 .wrapper__title{
     padding-top: 204px;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -132,10 +133,11 @@ ul{
 .wrapper__button button{
     font-family: Rubik;
     border: none;
-    padding: 20px 40px;
+    padding: 20px 50px;
     border-radius: 20px;
     color: white;
     background-color: #ff5b35;
+    font-size: 16px;
 }
 
 
@@ -161,3 +163,80 @@ ul{
 .footer__policy{
     padding-left: 60px;
 }
+
+
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    background-color: white;
+    padding-bottom: 130px;
+}
+
+.about-us__info{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-bottom: 40px;
+}
+
+.about-us__text{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.about-us__text h2{
+    font-size: 50px;
+}
+
+.about-us__text p{
+    font-size: 18px;
+}
+
+.about-us__categories{
+    display: flex;
+    gap: 40px;
+}
+
+.about-us__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 50px 30px 40px;
+    border-radius: 50px;
+}
+
+.about-us__block__text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-us__block__text h2{
+    font-size: 25px;
+}
+
+.about-us__block__text p{
+    font-size: 16px;
+}
+
+.about-us__block--kids{
+    background-color: #f3e5f4;
+}
+
+.about-us__block--adult{
+    background-color: #daf3f5;
+}
+
+.about-us__block--family{
+    background-color: #f6eed1;
+}
+
+.about-us__categories img{
+    height: 170px;
+}
+
